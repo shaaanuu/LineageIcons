@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Every icon in this pack that can be assigned to a single app by the
+    launcher's per-app icon picker (long-press -> edit icon).
+
+    The plain names are the "New" style and are what appfilter.xml maps to.
+    "Retro" and "Classic" are the same artwork at the older tiers, offered
+    so a user can mix styles on a per-app basis.
+-->
+<resources>
+
+    <category title="New" />
+
+    <item drawable="browser" />
+    <item drawable="calculator" />
+    <item drawable="calendar" />
+    <item drawable="camera" />
+    <item drawable="clock" />
+    <item drawable="contacts" />
+    <item drawable="dialer" />
+    <item drawable="equalizer" />
+    <item drawable="files" />
+    <item drawable="gallery" />
+    <item drawable="messages" />
+    <item drawable="music" />
+    <item drawable="radio" />
+    <item drawable="recorder" />
+    <item drawable="settings" />
+    <item drawable="sim_toolkit" />
+
+    <category title="Retro" />
+
+    <item drawable="retro_browser" />
+    <item drawable="retro_calculator" />
+    <item drawable="retro_calendar" />
+    <item drawable="retro_camera" />
+    <item drawable="retro_clock" />
+    <item drawable="retro_contacts" />
+    <item drawable="retro_dialer" />
+    <item drawable="retro_downloads" />
+    <item drawable="retro_equalizer" />
+    <item drawable="retro_files" />
+    <item drawable="retro_gallery" />
+    <item drawable="retro_mail" />
+    <item drawable="retro_messages" />
+    <item drawable="retro_music" />
+    <item drawable="retro_radio" />
+    <item drawable="retro_recorder" />
+    <item drawable="retro_settings" />
+    <item drawable="retro_sim_toolkit" />
+    <item drawable="retro_terminal" />
+
+    <category title="Classic" />
+
+    <item drawable="classic_browser" />
+    <item drawable="classic_calculator" />
+    <item drawable="classic_calendar" />
+    <item drawable="classic_camera" />
+    <item drawable="classic_clock" />
+    <item drawable="classic_contacts" />
+    <item drawable="classic_dialer" />
+    <item drawable="classic_downloads" />
+    <item drawable="classic_equalizer" />
+    <item drawable="classic_files" />
+    <item drawable="classic_gallery" />
+    <item drawable="classic_mail" />
+    <item drawable="classic_messages" />
+    <item drawable="classic_music" />
+    <item drawable="classic_radio" />
+    <item drawable="classic_recorder" />
+    <item drawable="classic_settings" />
+    <item drawable="classic_sim_toolkit" />
+    <item drawable="classic_terminal" />
+
+</resources>

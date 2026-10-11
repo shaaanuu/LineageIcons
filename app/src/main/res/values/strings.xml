@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Lineage Icons</string>
+    <string name="picker_hint">Pick an icon to use for a single app from your
+        launcher\'s per-app icon editor.</string>
 </resources>
