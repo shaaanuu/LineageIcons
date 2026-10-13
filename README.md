@@ -3,8 +3,8 @@ LineageOS system icons on any customizable launcher
 
 [![Platform](https://img.shields.io/badge/android-platform?style=for-the-badge&label=platform&labelColor=21262d&color=6e7681)](https://www.android.com) [![API](https://img.shields.io/badge/24%2B-level?style=for-the-badge&logo=android&logoColor=3cd382&label=API&labelColor=21262d&color=ff663b)](https://developer.android.com/studio/releases/platforms) [![Release](https://img.shields.io/github/v/release/WSTxda/Lineage-Icons?display_name=tag&style=for-the-badge&logo=github&labelColor=21262d&color=1f6feb)](https://github.com/WSTxda/Lineage-Icons/releases/latest) [![Downloads](https://img.shields.io/github/downloads/WSTxda/Lineage-Icons/total?style=for-the-badge&labelColor=21262d&color=238636)](https://github.com/WSTxda/Lineage-Icons/releases)
 
-![](https://raw.githubusercontent.com/WSTxda/LIneage-Icons/master/images/banner.svg)
-![](https://raw.githubusercontent.com/WSTxda/LIneage-Icons/master/images/preview.png)
+![](images/banner.svg)
+![](images/preview.png)
 
 ### Styles
 
@@ -51,4 +51,12 @@ so styles can be mixed per app.
 
 ### Credits
 
-All icons are from the [LineageOS](https://lineageos.org) thank you very much to all the designers
+- **[WSTxda](https://github.com/WSTxda)** - original creator and maintainer of this icon pack
+- **[The LineageOS Project](https://lineageos.org)** - all icon artwork originates from LineageOS, and thanks go out to every designer behind it
+
+The vector artwork here comes from LineageOS and keeps its original
+`SPDX-FileCopyrightText: 2022 The LineageOS Project` and
+`SPDX-License-Identifier: Apache-2.0` headers, preserved in each file.
+
+This pack's own code is released under the [GPL-3.0](LICENSE) license found in this
+repository.
