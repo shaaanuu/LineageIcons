@@ -101,7 +101,7 @@ class MainActivity : Activity() {
                 contentDescription = icon.name
                 setOnClickListener { onIconSelected(icon) }
                 layoutParams = LinearLayout.LayoutParams(cell(), cell()).apply {
-                    rightMargin = pad(8)
+                    rightMargin = pad(CELL_GAP_DP)
                 }
             }
         )
@@ -109,8 +109,10 @@ class MainActivity : Activity() {
 
     private fun cell() = (ICON_CELL_DP * density).toInt()
 
+    /** Each cell occupies its icon plus the trailing margin added in [addIcon]. */
     private fun perRow() =
-        (resources.displayMetrics.widthPixels / cell()).coerceAtLeast(MIN_COLUMNS)
+        ((resources.displayMetrics.widthPixels - 2 * pad()) / (cell() + pad(CELL_GAP_DP)))
+            .coerceAtLeast(MIN_COLUMNS)
 
     private fun pad(dp: Int = BASE_PADDING_DP) = (dp * density).toInt()
 
@@ -209,6 +211,7 @@ class MainActivity : Activity() {
         const val TEXT_SIZE_LARGE = 16f
         const val BASE_PADDING_DP = 16
         const val ICON_CELL_DP = 64
+        const val CELL_GAP_DP = 8
         const val MIN_COLUMNS = 3
         const val MIN_BITMAP = 144
         const val MAX_BITMAP = 512

@@ -8,24 +8,29 @@ LineageOS system icons on any customizable launcher
 
 ### Styles
 
-<details>
-  <summary>Retro</summary>
+All three styles ship in a single APK. **New** is the default that `appfilter.xml`
+applies everywhere; **Retro** and **Classic** can be assigned to individual apps from
+your launcher's per-app icon editor (long-press an app -> edit icon -> Lineage Icons),
+so styles can be mixed per app.
 
-- Adaptive icons not supported
-- High definiton icons (AI restoration)
-</details>
-<details>
-  <summary>Classic</summary>
-      
-- Adaptive icons supported
-- More launchers support
-</details>
 <details>
   <summary>New</summary>
 
-- Same things in Classic
-- Current LineageOS icons
-- Themed icons supported (Monet)
+- Current LineageOS icons, vector art
+- Adaptive icons with `<monochrome>` on API 31+ (themed icons / Monet)
+- Used by default for every themed app
+</details>
+<details>
+  <summary>Classic</summary>
+
+- Adaptive icons, raster art
+- Broader launcher support
+</details>
+<details>
+  <summary>Retro</summary>
+
+- Flat legacy icons, no adaptive layers
+- High definition icons (AI restoration)
 </details>
 
 ### Download

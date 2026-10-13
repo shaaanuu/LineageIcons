@@ -786,9 +786,6 @@
     <item
         component="ComponentInfo{com.android.calendar/com.android.calendar.MonthActivity}"
         drawable="calendar" />
-    <calendar
-        component="ComponentInfo{com.samsung.android.calendar/com.android.calendar.AllInOneActivity}"
-        prefix="calendar_" />
     <item
         component="ComponentInfo{com.samsung.android.calendar/com.android.calendar.AllInOneActivity}"
         drawable="calendar" />

@@ -37,14 +37,14 @@
     <icon package="com.android.chrome" drawable="@drawable/browser_monochrome" />
     <icon package="com.android.contacts" drawable="@drawable/contacts_monochrome" />
     <icon package="com.android.deskclock" drawable="@drawable/clock_monochrome" />
-    <icon package="com.android.dialer" drawable="@drawable/contacts_monochrome" />
+    <icon package="com.android.dialer" drawable="@drawable/dialer_monochrome" />
     <icon package="com.android.documentsui" drawable="@drawable/files_monochrome" />
     <icon package="com.android.dualliststk" drawable="@drawable/sim_toolkit_monochrome" />
     <icon package="com.android.fileexplorer" drawable="@drawable/files_monochrome" />
     <icon package="com.android.filemanager" drawable="@drawable/files_monochrome" />
     <icon package="com.android.fmradio" drawable="@drawable/radio_monochrome" />
     <icon package="com.android.gallery" drawable="@drawable/gallery_monochrome" />
-    <icon package="com.android.gallery3d" drawable="@drawable/camera_monochrome" />
+    <icon package="com.android.gallery3d" drawable="@drawable/gallery_monochrome" />
     <icon package="com.android.hisiliconsetting" drawable="@drawable/settings_monochrome" />
     <icon package="com.android.htccontacts" drawable="@drawable/contacts_monochrome" />
     <icon package="com.android.htcdialer" drawable="@drawable/dialer_monochrome" />
@@ -195,7 +195,7 @@
     <icon package="com.huawei.camera" drawable="@drawable/camera_monochrome" />
     <icon package="com.huawei.hidisk" drawable="@drawable/files_monochrome" />
     <icon package="com.huawei.systemmanager" drawable="@drawable/dialer_monochrome" />
-    <icon package="com.jrdcom.android.gallery3d" drawable="@drawable/camera_monochrome" />
+    <icon package="com.jrdcom.android.gallery3d" drawable="@drawable/gallery_monochrome" />
     <icon package="com.jrdcom.filemanager" drawable="@drawable/files_monochrome" />
     <icon package="com.jrdcom.filemanager.bb" drawable="@drawable/files_monochrome" />
     <icon package="com.jrdcom.fmradio" drawable="@drawable/radio_monochrome" />
@@ -351,7 +351,7 @@
     <icon package="com.sony.snei.mu.phone" drawable="@drawable/music_monochrome" />
     <icon package="com.sonyericsson.album" drawable="@drawable/gallery_monochrome" />
     <icon package="com.sonyericsson.android.camera" drawable="@drawable/camera_monochrome" />
-    <icon package="com.sonyericsson.android.socialphonebook" drawable="@drawable/contacts_monochrome" />
+    <icon package="com.sonyericsson.android.socialphonebook" drawable="@drawable/dialer_monochrome" />
     <icon package="com.sonyericsson.androidapp.lunarcalendar" drawable="@drawable/calendar_monochrome" />
     <icon package="com.sonyericsson.androidapp.recorder" drawable="@drawable/recorder_monochrome" />
     <icon package="com.sonyericsson.calendar" drawable="@drawable/calendar_monochrome" />
