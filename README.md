@@ -32,6 +32,30 @@ so styles can be mixed per app.
 - High definition icons (AI restoration)
 </details>
 
+### Build
+
+Requires JDK 17 and an Android SDK with platform 35 and build-tools 35.0.0.
+Point `ANDROID_HOME` (or `sdk.dir` in `local.properties`) at your SDK, then:
+
+```bash
+./gradlew assembleDebug     # app/build/outputs/apk/debug/app-debug.apk
+./gradlew assembleRelease   # app/build/outputs/apk/release/
+./gradlew bundleRelease     # app/build/outputs/bundle/release/app-release.aab
+```
+
+Release builds are unsigned unless a `keystore.properties` file exists in the
+repository root:
+
+```properties
+storeFile=/path/to/your.jks
+storePassword=...
+keyAlias=...
+keyPassword=...
+```
+
+With it, the APK is signed and named `app-release.apk`. Without it you get
+`app-release-unsigned.apk`, which Android will refuse to install.
+
 ### Credits
 
 - **[WSTxda](https://github.com/WSTxda)** - original creator and maintainer of this icon pack
