@@ -4,16 +4,16 @@ plugins {
 }
 
 android {
-    namespace = "com.wstxda.lineageicons"
+    namespace = "dev.shaaanuu.lineageicons"
     compileSdk = 35
     buildToolsVersion = "35.0.0"
 
     defaultConfig {
-        applicationId = "com.wstxda.lineageicons"
+        applicationId = "dev.shaaanuu.lineageicons"
         minSdk = 24
         targetSdk = 34
-        versionCode = 700
-        versionName = "7.0"
+        versionCode = 100
+        versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

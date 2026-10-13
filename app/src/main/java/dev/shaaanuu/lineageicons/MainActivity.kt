@@ -1,4 +1,4 @@
-package com.wstxda.lineageicons
+package dev.shaaanuu.lineageicons
 
 import android.app.Activity
 import android.app.AlertDialog

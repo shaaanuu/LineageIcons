@@ -1,4 +1,4 @@
-package com.wstxda.lineageicons
+package dev.shaaanuu.lineageicons
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
